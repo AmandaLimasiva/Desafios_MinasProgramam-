@@ -16,4 +16,6 @@ if(valorDoProduto < 20){
     vendido = valorDoProduto * 0.30
     lucroFinal = vendido + valorDoProduto
     console.log(`⚫ O produto ${nomeDoProduto} custa ${lucroFinal} reais na Mercearia da esquina.`)
+}else{
+    console.log("Sem alterações nos preços!!")
 }
